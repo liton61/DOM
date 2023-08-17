@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg-color{
+            background-color: pink;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="dom">Document Object Model !</h1>
+    <script>
+        const dom = document.getElementById('dom');
+        // first way to add class
+        // dom.className = 'bg-color';
+        // second way to add class
+        dom.classList.add('bg-color');
+        // remove class
+        // dom.classList.remove('bg-color');
+    </script>
+</body>
+</html>

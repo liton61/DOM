@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="dom">D ==> Document</h1>
+    <h1 class="dom">O ==> Object</h1>
+    <h1 class="dom">M ==> Model</h1>
+    <script>
+        const classList = document.getElementsByClassName('dom');
+        for(const value of classList){
+            value.style.color = 'green';
+        }
+    </script>
+</body>
+</html>

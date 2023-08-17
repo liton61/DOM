@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent-container">
+
+    </div>
+    <script>
+        const  parentContainer = document.getElementById('parent-container');
+        
+        // const fruits = ['Apple', 'Banana', 'Cherry', 'Date', 'Orange'];
+        // for (const fruit of fruits) {
+        //     const li = document.createElement('li');
+        //     li.innerText = fruit;
+        //     parentContainer.appendChild(li);
+        // }
+        const createLi = document.createElement('li');
+        createLi.innerText = 'Mango';
+        parentContainer.appendChild(createLi);
+    </script>
+</body>
+</html>
